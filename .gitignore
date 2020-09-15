@@ -1,2 +1,4 @@
 /.idea
 /get-methods.iml
+/*.iml
+/dependency-reduced-pom.xml
