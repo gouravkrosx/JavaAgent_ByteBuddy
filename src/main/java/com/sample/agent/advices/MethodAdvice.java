@@ -4,8 +4,12 @@ import net.bytebuddy.asm.Advice;
 
 public class MethodAdvice {
 
+    @Advice.OnMethodEnter
+    static void enterMethods(@Advice.Origin String method) throws Exception {
+    }
+
     @Advice.OnMethodExit
-    static void getAllMethods(@Advice.Origin String method) throws Exception {
+    static void exitMethods(@Advice.Origin String method) throws Exception {
         System.out.println(method);
     }
 }
