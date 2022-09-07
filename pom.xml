@@ -10,6 +10,7 @@
         <module>Application</module>
         <module>Outer</module>
         <module>Advice_Agent</module>
+        <module>SQL_Agent</module>
     </modules>
     <dependencies>
         <dependency>
@@ -17,6 +18,11 @@
             <artifactId>byte-buddy</artifactId>
             <version>1.12.14</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
         </dependency>
     </dependencies>
 
