@@ -23,7 +23,7 @@ A sample app explaining how to use [ByteBuddy](https://bytebuddy.net/#/) and Jav
 ```
 for eg: 
 ```shell
-   java -javaagent:/home/user/Desktop/JavaAgent_ByteBuddy/Interceptor_Agent/target/Interceptor_Agent-1.0.0-SNAPSHOT.jar -jar /home/user/Desktop/JavaAgent_ByteBuddy/Application/target/Application-1.0.0-SNAPSHOT.jar
+   java -javaagent:/Users/sarthak_1/Documents/Keploy/trash/JavaAgent_ByteBuddy/Interceptor_Agent/target/Interceptor_Agent-1.0.0-SNAPSHOT.jar -jar /Users/sarthak_1/Documents/Keploy/trash/JavaAgent_ByteBuddy/Application/target/Application-1.0.0-SNAPSHOT.jar
 ```
 
 2. To use ByteBuddy for advices, run below command on terminal
@@ -32,5 +32,5 @@ for eg:
 ```
 for eg:
 ```shell
-   java -javaagent:/home/user/Desktop/JavaAgent_ByteBuddy/Advice_Agent/target/Advice_Agent-1.0.0-SNAPSHOT.jar -jar /home/user/Desktop/JavaAgent_ByteBuddy/Application/target/Application-1.0.0-SNAPSHOT.jar
+   java -javaagent:/Users/sarthak_1/Documents/Keploy/trash/JavaAgent_ByteBuddy/Advice_Agent/target/Advice_Agent-1.0.0-SNAPSHOT.jar -jar /Users/sarthak_1/Documents/Keploy/trash/JavaAgent_ByteBuddy/Application/target/Application-1.0.0-SNAPSHOT.jar
 ```

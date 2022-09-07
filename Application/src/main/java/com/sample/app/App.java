@@ -11,9 +11,9 @@ public class App {
         System.out.println("Calling Method Addition from main");
 
         // to check advice agent
-        System.out.println("getting response from methodAdding4Advice of AdviceMethodAddition: " + new AdviceMethodAddition().methodAdding4Advice());
+//        System.out.println("getting response from methodAdding4Advice of AdviceMethodAddition: " + new AdviceMethodAddition().methodAdding4Advice());
 
         // to check interceptor agent
-//        System.out.println("getting response from methodAdding of MethodAddition: " + new MethodAddition().methodAdding());
+        System.out.println("getting response from methodAdding of MethodAddition: " + new MethodAddition().methodAdding());
     }
 }
